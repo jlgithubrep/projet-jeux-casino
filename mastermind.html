@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mastermind</title>
+    <link rel="stylesheet" href="css/style_mastermind.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+
+
+<section class="jeu">
+
+    <div class="titre">MasterMind</div>
+
+    <div class="affichageBalance">
+        Balance :
+        <div id="balance"></div>
+    </div>
+
+    <div class="betField">
+        <p>Votre mise pour chaque proposition</p>
+        <input class="pari" type="number" value="10">
+
+        <button class="playButton">
+            Lancez la Partie
+        </button>
+
+    </div>
+
+    <div class="mastermind">
+        <p>Tentative</p>
+        <input class="tentative" type="number" value="100" min="100" max="999">
+
+        <button class="boutonTentative">
+            Proposez le nombre
+        </button>
+
+        <div id="message" class="message"></div>
+        <div id ="message2" class="message2"></div>
+    </div>
+
+    Historique:
+    <div id ="historique" class="historique">
+    </div>
+
+</section>
+
+<script src="js/mastermind2.js"></script>
+</body>
+</html>

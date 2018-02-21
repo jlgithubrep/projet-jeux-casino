@@ -1,0 +1,87 @@
+* {
+    background-color: #34495e;
+    font-family: Helvetica;
+    color: white;
+}
+
+.titre {
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #ecf0f1;
+
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    background-color: #7f8c8d;
+
+    max-width: 50%;
+    margin: auto;
+
+}
+
+.affichageBalance {
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align: center;
+    color: #f1c40f;
+}
+
+.affichage{
+    max-width: 80%;
+    margin: auto;
+}
+
+
+/*style du demineur*/
+
+
+
+.tableau{
+    border-collapse: collapse;
+
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.case {
+    background-color: lightgray;
+}
+
+.case:hover{
+    background-color: darkgrey;
+}
+
+.caseSafe {
+    background-color: lightgreen;
+}
+
+.casePiege {
+
+    /*
+    background-color: crimson;
+*/
+
+    background-image: url("../img/explosion.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.casePiegeRestante{
+    background-color: crimson;
+}
+
+/*fin style du demineur*/
+
+
+
+
+
+

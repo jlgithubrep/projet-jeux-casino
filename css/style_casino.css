@@ -1,0 +1,31 @@
+* {
+    background-color: #2980b9;
+    font-family: Helvetica;
+    color: white;
+}
+
+.titre {
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #f1c40f;
+
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    background-color: #7f8c8d;
+
+    max-width: 50%;
+    margin: auto;
+
+}
+
+.selection{
+    margin: 20px 20px 20px 20px;
+}
+
+.roulette, .coinsweeper, .mastermind, .memoire{
+    margin: auto;
+    max-width: 80%;
+}

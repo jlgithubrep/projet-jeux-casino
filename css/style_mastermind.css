@@ -1,0 +1,30 @@
+* {
+    background-color: #7f8c8d;
+    font-family: Helvetica;
+    color: white;
+}
+
+.titre {
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #8e44ad;
+
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    background-color: #7f8c8d;
+
+    max-width: 50%;
+    margin: auto;
+
+}
+
+.affichageBalance {
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align: center;
+    color: #f1c40f;
+}
+

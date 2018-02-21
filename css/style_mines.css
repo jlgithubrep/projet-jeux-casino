@@ -1,0 +1,85 @@
+* {
+    background-color: #34495e;
+    font-family: Helvetica;
+    color: white;
+}
+
+.titre {
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #ecf0f1;
+
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    background-color: #7f8c8d;
+
+    max-width: 50%;
+    margin: auto;
+
+}
+
+.affichageBalance {
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align: center;
+    color: #f1c40f;
+}
+
+
+/*style du demineur*/
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.flex-item {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    list-style: none;
+}
+
+
+
+.case {
+    background-color: lightgray;
+}
+
+.caseSafe {
+    background-color: lightgreen;
+}
+
+.casePiege {
+
+    /*
+    background-color: crimson;
+*/
+
+    background-image: url("../img/explosion2.jpg");
+
+    background-repeat: no-repeat;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 0;
+
+}
+
+.casePiegeRestante{
+    background-color: crimson;
+}
+
+/*fin style du demineur*/
+
+
+
+
+
+

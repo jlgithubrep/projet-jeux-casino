@@ -1,0 +1,139 @@
+* {
+    background-color: #4b77be;
+    font-family: Helvetica;
+    color: white;
+}
+
+.titre {
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #22313F;
+
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    background-color: #19B5FE;
+
+    max-width: 50%;
+    margin: auto;
+
+}
+
+.affichageBalance {
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align: center;
+    color: #f1c40f;
+}
+
+
+/*style du tableau de jeu*/
+
+
+.tableau{
+    border-collapse: collapse;
+
+}
+/*
+.carte{
+    border: 1px solid black;
+    padding: 70px;
+    background-color: lightgray;
+}
+*/
+
+.carte{
+    background-image: url("../img/cards/1card_back.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 70px;
+}
+
+
+.carte:hover{
+    background-color: darkgray;
+}
+
+/*
+.carte:hover{
+    background-image: url("../img/cards/1card_back_hover.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 70px;
+}
+*/
+/*
+.carteRetourne{
+    background-image: url("../img/cards/jack_of_spades2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+*/
+
+/*
+https://www.w3schools.com/css/css_rwd_images.asp
+
+background-size : contain;
+the background image will scale, and try to fit the content area. However, the image will keep its aspect ratio
+
+background-size: 100% 100%;
+the background image will stretch to cover the entire content area
+*/
+
+.carteAceClub{
+    background-image: url("../img/cards/ace_of_clubs.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.carteAceDiamond{
+    background-image: url("../img/cards/ace_of_diamonds.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.carteAceHeart{
+    background-image: url("../img/cards/ace_of_hearts.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.carteAceSpade{
+    background-image: url("../img/cards/ace_of_spades.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.carteJackSpade{
+    background-image: url("../img/cards/jack_of_spades2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.carteKingDiamond{
+    background-image: url("../img/cards/king_of_diamonds2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.carteQueenHeart{
+    background-image: url("../img/cards/queen_of_hearts2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.carteJoker{
+    background-image: url("../img/cards/red_joker.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+/*fin style du tableau de jeu*/
+
